@@ -1,9 +1,18 @@
-# WatchUsBuild-TeamDirectoryAppWithDjango
-Code for the Directory app built during the Watch Us Build screencast.
+### WatchUsBuild-TeamDirectoryAppWithDjango
+### Code for the Directory app built during the Watch Us Build screencast.
 
-Currently this app has some dependencies required to deploy it to Heroku that need to be installed before it will run locally.  The dependencies are:
-* `Django==1.10`
-* `gunicorn==19.6.0`
-* `whitenoise==3.2`
+### 0. init git
 
-Those can be installed from the `requirements.txt` file with the following command - `pip install -r requirements.txt`.  Or they can be installed separately with `pip`.
+	# fork https://github.com/codeschool/WatchUsBuild-TeamDirectoryAppWithDjango
+	# make a new workspace in cloud9.io named 'team_directory_app' and cloned from 
+	#    https://github.com/sdoro/WatchUsBuild-TeamDirectoryAppWithDjango and
+	#    choosing 'blank' template.
+
+### 1. build a virtual environment
+
+	sudo pip install virtualenv
+	virtualenv ~/.env
+	source ~/.env/bin/activate
+	cd Directory
+	pip install -r requirements.txt
+
