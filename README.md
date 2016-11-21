@@ -51,5 +51,9 @@
 
 	# edit www/fixtures/team.json
 	# ./manage.py loaddata www/fixtures/team.json
-	
-	
+
+### 7. use Heroku
+
+	heroku login
+	# edit $HOME/workspace/ProcFile
+	# edit DIrectory/settings.py
