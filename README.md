@@ -41,4 +41,15 @@
 	# edit www/ursl.py
 	# edit www/admin.py
 
-### 5. Create/use a 
+### 5. Create/use a 'style'
+
+	# edit www/static/main.css
+	# edit www/static/normalize.css
+	# edit www/templates/index.html
+	
+### 6. Load data
+
+	# edit www/fixtures/team.json
+	# ./manage.py loaddata www/fixtures/team.json
+	
+	
