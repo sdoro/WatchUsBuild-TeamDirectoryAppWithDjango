@@ -57,3 +57,5 @@
 	heroku login
 	# edit $HOME/workspace/ProcFile
 	# edit DIrectory/settings.py
+	heroku create
+	edit DIrectory/wsgi.py
